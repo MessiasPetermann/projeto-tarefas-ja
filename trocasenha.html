@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tarefas Já - Troca de Senha</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Troca de Senha</h1>
+    <form id="changePasswordForm">
+      <div class="mb-3">
+        <label for="oldPassword" class="form-label">Senha Antiga:</label>
+        <input type="password" class="form-control" id="oldPassword" required>
+      </div>
+      <div class="mb-3">
+        <label for="newPassword" class="form-label">Nova Senha:</label>
+        <input type="password" class="form-control" id="newPassword" required>
+      </div>
+      <div class="mb-3">
+        <label for="confirmPassword" class="form-label">Confirmar Nova Senha:</label>
+        <input type="password" class="form-control" id="confirmPassword" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Trocar Senha</button>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="changepassword.js"></script>
+</body>
+</html>
